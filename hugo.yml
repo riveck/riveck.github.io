@@ -12,6 +12,21 @@ buildExpired: false
 #mainsections: ["posts"]
 #keywords: ["Blog", "Profile", "PaperMod"]
 
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: example
+      name: example.org
+      url: https://example.org
+      weight: 30
+
 params:
   env: production
   description: Ricard Flores --- The Happy CISO
@@ -20,8 +35,8 @@ params:
   # disableThemeToggle: true
   ShowReadingTime: true
   ShowShareButtons: true
-  #ShowPostNavLinks: true
-  #ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
   #ShowCodeCopyButtons: true
   #ShowWordCount: true
   #ShowRssButtonInSectionTermList: true
@@ -42,10 +57,10 @@ params:
 
   #images: ["images/banner.png"]
 
-  # cover:
-  #     hidden: true # hide everywhere but not in structured data
-  #     hiddenInList: true # hide on list pages and home
-  #     hiddenInSingle: true # hide on single page
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
   
   homeInfoParams:
     Title: Ricard Flores - CISO & Security Director
@@ -58,6 +73,7 @@ params:
       url: "https://infosec.exchange/@riveck"
 
   ShareButtons: ["x","linkedin","reddit","whatsapp","telegram"]
+  #hideFooter: true
 
 outputs:
   home:
