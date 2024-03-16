@@ -1,0 +1,67 @@
+baseURL: https://riveck.com/
+languageCode: en-us
+title: Ricard Flores -- The Happy CISO
+theme: PaperMod
+enableEmoji: true
+paginate: 5
+#enableRobotsTXT: true
+#enableInlineShortcodes: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+#mainsections: ["posts"]
+#keywords: ["Blog", "Profile", "PaperMod"]
+
+params:
+  env: production
+  description: Ricard Flores --- The Happy CISO
+  author: Ricard Flores
+  defaultTheme: auto
+  # disableThemeToggle: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  #ShowPostNavLinks: true
+  #ShowBreadCrumbs: true
+  #ShowCodeCopyButtons: true
+  #ShowWordCount: true
+  #ShowRssButtonInSectionTermList: true
+  #UseHugoToc: true
+  #disableSpecial1stPost: false
+  disableScrollToTop: false
+  #comments: true
+  #hidemeta: false
+  #hideSummary: false
+  #showtoc: true
+  #tocopen: true
+
+  #
+  displayFullLangName: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  #ShowToc: true
+
+  #images: ["images/banner.png"]
+
+  # cover:
+  #     hidden: true # hide everywhere but not in structured data
+  #     hiddenInList: true # hide on list pages and home
+  #     hiddenInSingle: true # hide on single page
+  
+  homeInfoParams:
+    Title: Ricard Flores - CISO & Security Director
+    Content: Lorem Ipsum...
+
+  socialIcons: # optional
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/ricardfloresduran/"
+    - name: "mastodon"
+      url: "https://infosec.exchange/@riveck"
+
+  ShareButtons: ["x","linkedin","reddit","whatsapp","telegram"]
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
