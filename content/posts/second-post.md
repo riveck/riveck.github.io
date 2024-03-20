@@ -8,7 +8,14 @@ cover:
     caption: "This is a caption" # display caption under cover
     relative: false # when using page bundles set this to true
     # hidden: true # only hide on current single page
+tags: ['testTag']
+description: Sample description of a post
+summary: Test summary
 ---
 ## This is a second post
+
+```
+This is a code block
+```
 
 Hi there this is another post

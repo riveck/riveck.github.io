@@ -4,19 +4,18 @@ title: Ricard Flores -- The Happy CISO
 theme: PaperMod
 enableEmoji: true
 paginate: 5
-#enableRobotsTXT: true
+enableRobotsTXT: true
 #enableInlineShortcodes: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-#mainsections: ["posts"]
 #keywords: ["Blog", "Profile", "PaperMod"]
 
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
+    - identifier: posts
+      name: posts
+      url: /posts/
       weight: 10
     - identifier: tags
       name: tags
@@ -26,34 +25,44 @@ menu:
       name: example.org
       url: https://example.org
       weight: 30
+    - identifier: search
+      name: search
+      url: /search/
+      weight: 40
 
 params:
+  mainSections:
+  - posts
   env: production
   description: Ricard Flores --- The Happy CISO
   author: Ricard Flores
   defaultTheme: auto
-  # disableThemeToggle: true
+  disableThemeToggle: true
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  #ShowCodeCopyButtons: true
+  ShowCodeCopyButtons: true
   #ShowWordCount: true
   #ShowRssButtonInSectionTermList: true
   #UseHugoToc: true
-  #disableSpecial1stPost: false
+  #disableSpecial1stPost: true
   disableScrollToTop: false
   #comments: true
-  #hidemeta: false
-  #hideSummary: false
+  # hidemeta: true
+  # hideSummary: true
+  
+  # If Table of Contents is needed
   #showtoc: true
   #tocopen: true
+  
+  label:
+    icon: images/logo.svg
 
   #
   displayFullLangName: true
   ShowAllPagesInArchive: true
   ShowPageNums: true
-  #ShowToc: true
 
   #images: ["images/banner.png"]
 
@@ -63,8 +72,13 @@ params:
     hiddenInSingle: true # hide on single page
   
   homeInfoParams:
-    Title: Ricard Flores - CISO & Security Director
-    Content: Lorem Ipsum...
+    Title: Ricard Flores --- CISO & Security Director
+    Content: > 
+      Lorem Ipsum... ![white kitten](/images/banner.png)
+
+      # foo
+
+      bar
 
   socialIcons: # optional
     - name: "linkedin"
@@ -81,3 +95,7 @@ outputs:
     - RSS
     - JSON # necessary for search
 
+sitemap:
+  changeFreq: ""
+  filename: sitemap.xml
+  priority: -1
