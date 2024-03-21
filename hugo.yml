@@ -1,6 +1,6 @@
 baseURL: https://riveck.com/
 languageCode: en-us
-title: Ricard Flores - CISO & Security Director
+title: Ricard Flores - Cybersecurity Leadership
 theme: PaperMod
 enableEmoji: true
 paginate: 5
@@ -21,20 +21,16 @@ menu:
       name: tags
       url: /tags/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
-      weight: 30
     - identifier: search
       name: search
       url: /search/
-      weight: 40
+      weight: 30
 
 params:
   mainSections:
   - posts
   env: production
-  description: Ricard Flores - CISO & Security Director
+  description: Ricard Flores - Cybersecurity Leadership
   author: Ricard Flores
   defaultTheme: light
   disableThemeToggle: true
@@ -46,7 +42,7 @@ params:
   #ShowWordCount: true
   #ShowRssButtonInSectionTermList: true
   #UseHugoToc: true
-  #disableSpecial1stPost: true
+  disableSpecial1stPost: false
   disableScrollToTop: false
   #comments: true
   # hidemeta: true
@@ -57,7 +53,8 @@ params:
   #tocopen: true
   
   label:
-    icon: images/logo.svg
+    icon: images/logo.png
+    iconHeight: 40
 
   displayFullLangName: true
   ShowAllPagesInArchive: true
@@ -71,13 +68,13 @@ params:
     hiddenInSingle: true # hide on single page
   
   homeInfoParams:
-    Title: Introduction
+    #Title: Introduction
     Content: > 
-      Lorem Ipsum... ![white kitten](/images/banner.png)
+      # $whoami
 
-      # foo
+      :wave: I'm Ricard Flores, a father, a husband and a cybersecurithy enthusiast 
+      who have found passion in leading other cybersecurity enthusiasts.
 
-      bar
 
   socialIcons: # optional
     - name: "linkedin"
