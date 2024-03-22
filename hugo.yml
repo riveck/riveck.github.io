@@ -1,6 +1,6 @@
 baseURL: https://riveck.com/
 languageCode: en-us
-title: Ricard Flores - Cybersecurity Leadership
+title: Ricard Flores
 theme: PaperMod
 enableEmoji: true
 paginate: 5
@@ -11,18 +11,20 @@ buildFuture: false
 buildExpired: false
 #keywords: ["Blog", "Profile", "PaperMod"]
 
+copyright: '[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) Ricard Flores'
+
 menu:
   main:
     - identifier: posts
-      name: posts
+      name: Posts
       url: /posts/
       weight: 10
     - identifier: tags
-      name: tags
+      name: Tags
       url: /tags/
       weight: 20
     - identifier: search
-      name: search
+      name: "Search"
       url: /search/
       weight: 30
 
@@ -30,17 +32,18 @@ params:
   mainSections:
   - posts
   env: production
-  description: Ricard Flores - Cybersecurity Leadership
+  description: Ricard Flores
   author: Ricard Flores
-  defaultTheme: light
-  disableThemeToggle: true
+  defaultTheme: auto
+  disableThemeToggle: false
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
+  #hideFooter: true
   #ShowWordCount: true
-  #ShowRssButtonInSectionTermList: true
+  ShowRssButtonInSectionTermList: true
   #UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
@@ -67,14 +70,27 @@ params:
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
   
-  homeInfoParams:
+#  homeInfoParams:
     #Title: Introduction
-    Content: > 
+#    Content: > 
       # $whoami
+#
+#      :wave: I'm **Ricard Flores**, a father, a husband and a cybersecurithy enthusiast 
+#      who have found passion in leading other cybersecurity enthusiasts.
 
-      :wave: I'm Ricard Flores, a father, a husband and a cybersecurithy enthusiast 
-      who have found passion in leading other cybersecurity enthusiasts.
-
+  profileMode:
+    enabled: true
+    title: "Ricard Flores" # optional default will be site title
+    subtitle: "Cybersecurity Leadership"
+    imageUrl: "/images/profile_pic.jpg" # optional
+    imageTitle: "Image title" # optional
+    imageWidth: 240 # custom size
+    imageHeight: 240 # custom size
+    buttons:
+      - name: Posts
+        url: "/posts"
+      - name: LinkedIn
+        url: "https://www.linkedin.com/in/ricardfloresduran/"
 
   socialIcons: # optional
     - name: "linkedin"
