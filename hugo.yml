@@ -84,8 +84,8 @@ params:
     subtitle: "Cybersecurity Leadership"
     imageUrl: "/images/profile_pic.jpg" # optional
     imageTitle: "Image title" # optional
-    imageWidth: 240 # custom size
-    imageHeight: 240 # custom size
+    imageWidth: 500 # custom size
+    imageHeight: 500 # custom size
     buttons:
       - name: Posts
         url: "/posts"
