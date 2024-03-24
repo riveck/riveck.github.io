@@ -1,6 +1,6 @@
 baseURL: https://riveck.com/
 languageCode: en-us
-title: Ricard Flores
+title: Cybersecurity Leadership
 theme: PaperMod
 enableEmoji: true
 paginate: 5
@@ -15,6 +15,10 @@ copyright: '[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/
 
 menu:
   main:
+    - identifier: about
+      name: About
+      url: /about
+      weight: 5
     - identifier: posts
       name: Posts
       url: /posts/
@@ -27,6 +31,10 @@ menu:
       name: "Search"
       url: /search/
       weight: 30
+    - identifier: archives
+      name: "Archives"
+      url: /archives/
+      weight: 40
 
 params:
   mainSections:
@@ -34,8 +42,8 @@ params:
   env: production
   description: Ricard Flores
   author: Ricard Flores
-  defaultTheme: auto
-  disableThemeToggle: false
+  defaultTheme: light
+  disableThemeToggle: true
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
@@ -56,8 +64,8 @@ params:
   #tocopen: true
   
   label:
-    icon: images/logo.png
-    iconHeight: 40
+    icon: images/full-name.png
+    iconHeight: 50
 
   displayFullLangName: true
   ShowAllPagesInArchive: true
