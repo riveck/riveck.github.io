@@ -22,6 +22,6 @@ I'm **Ricard Flores**, a computer engineer from Spain who's been leading high pe
 
 I'm also a Board member of the [ISMS Forum Barcelona regional chapter](https://www.ismsforum.es/) and CEH certified (Certified Ethical Hacker).
 
-If you're interested on reaching out you can contact me on:
-- LinkedIn: [Ricard Flores](https://www.linkedin.com/in/ricardfloresduran/) 
-- Email: ```riveck```:email:```gmail.com```
+>If you're interested on reaching out you can contact me on:
+>- LinkedIn: [Ricard Flores](https://www.linkedin.com/in/ricardfloresduran/) 
+>- Email: riveck{{< inTextImg url="/images/AT_sign.svg" height=15 alt="at" >}}gmail.com
