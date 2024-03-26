@@ -18,4 +18,10 @@ cover:
 ---
 ![Ricard Flores](/images/profile_pic.jpg)
 
-I'm **Ricard Flores**, Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum
+I'm **Ricard Flores**, a computer engineer from Spain who's been leading high performing engineering teams for over 8 years, more recently pivoting my career more towards Cybersecurity and IT leadership. I've been responsible for product and corporate security, team hiring and management, multi-year strategy implementation, vendor management, budget management and process optimization for the majority of those years. Directly involved hands-on in technical implementation of many of the tools and technical controls, I consider myself a servant leader, leading by example. Even keeping a strategic mindset and high-level overview of the departments I've led in the past, I always find time to hop onto some of the hard tasks to help out my team to tackle. 
+
+I'm also a Board member of the [ISMS Forum Barcelona regional chapter](https://www.ismsforum.es/) and CEH certified (Certified Ethical Hacker).
+
+If you're interested on reaching out you can contact me on:
+- LinkedIn: [Ricard Flores](https://www.linkedin.com/in/ricardfloresduran/) 
+- Email: ```riveck```:email:```gmail.com```

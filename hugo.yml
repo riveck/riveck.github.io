@@ -89,22 +89,22 @@ params:
   profileMode:
     enabled: true
     title: "Ricard Flores" # optional default will be site title
-    subtitle: "Cybersecurity Leadership"
+    subtitle: "Personal site, everything around Cybersecurity: Leadership, Governance Cloud, AI, Network and more"
     imageUrl: "/images/profile_pic.jpg" # optional
     imageTitle: "Image title" # optional
     imageWidth: 300 # custom size
     imageHeight: 300 # custom size
     buttons:
+      - name: About me
+        url: "/about"
       - name: Posts
         url: "/posts"
-      - name: LinkedIn
-        url: "https://www.linkedin.com/in/ricardfloresduran/"
 
   socialIcons: # optional
     - name: "linkedin"
       url: "https://www.linkedin.com/in/ricardfloresduran/"
-    - name: "mastodon"
-      url: "https://infosec.exchange/@riveck"
+#    - name: "mastodon"
+#      url: "https://infosec.exchange/@riveck"
 
   ShareButtons: ["x","linkedin","reddit","whatsapp","telegram"]
   #hideFooter: true
