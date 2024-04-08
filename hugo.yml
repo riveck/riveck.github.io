@@ -115,6 +115,10 @@ outputs:
     - RSS
     - JSON # necessary for search
 
+services:
+  googleAnalytics:
+    ID: G-818H4QF3T3
+
 sitemap:
   changeFreq: ""
   filename: sitemap.xml
