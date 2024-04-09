@@ -11,7 +11,7 @@ buildFuture: false
 buildExpired: false
 #keywords: ["Blog", "Profile", "PaperMod"]
 
-copyright: '[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) Ricard Flores'
+copyright: '[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) Ricard Flores | [Disclaimer](/disclaimer) | '
 
 menu:
   main:
@@ -115,9 +115,13 @@ outputs:
     - RSS
     - JSON # necessary for search
 
+privacy:
+  googleAnalytics:
+    disable: true
+
 services:
   googleAnalytics:
-    ID: G-818H4QF3T3
+    ID: #G-818H4QF3T3
 
 sitemap:
   changeFreq: ""
