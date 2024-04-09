@@ -68,7 +68,7 @@ params:
     iconHeight: 50
 
   displayFullLangName: true
-  ShowAllPagesInArchive: true
+  ShowAllPagesInArchive: false
   ShowPageNums: true
 
   #images: ["images/banner.png"]
