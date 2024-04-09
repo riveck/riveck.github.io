@@ -16,8 +16,6 @@ slug: ""
 tags: ["Cybersecurity","Leadership"]
 cover:
   image: "cover.png"
-  alt: "foo"
-  caption: "bar"
   relative: true # To use relative path for cover image, used in hugo Page-bundles
 ---
 ![Cover](./cover.png "Cover")
